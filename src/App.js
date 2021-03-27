@@ -50,6 +50,16 @@ function App() {
           discover_weekly: response,
         });
       });
+      dispatch({
+        type: "SET_SPOTIFY",
+        spotify: spotify,
+      });
+      spotify.getMyTopArtists().then((res) => {
+        dispatch({
+          type: "SET_TOP_ARTISTS",
+          top_artists: res,
+        });
+      });
     }
   }, []);
   // console.log("person", user);

@@ -1,0 +1,13 @@
+[debug] [2021-03-27T07:09:21.771Z] ----------------------------------------------------------------------
+[debug] [2021-03-27T07:09:21.772Z] Command:       /home/aayush/.nvm/versions/node/v14.12.0/bin/node /home/aayush/.nvm/versions/node/v14.12.0/bin/firebase deploy
+[debug] [2021-03-27T07:09:21.773Z] CLI Version:   9.7.0
+[debug] [2021-03-27T07:09:21.773Z] Platform:      linux
+[debug] [2021-03-27T07:09:21.773Z] Node Version:  v14.12.0
+[debug] [2021-03-27T07:09:21.773Z] Time:          Sat Mar 27 2021 12:39:21 GMT+0530 (India Standard Time)
+[debug] [2021-03-27T07:09:21.773Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-03-27T07:09:21.777Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-27T07:09:21.777Z] > authorizing via signed-in user
+[debug] [2021-03-27T07:09:21.777Z] [iam] checking project spotify-clone-12bf9 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-03-27T07:09:21.778Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/spotify-clone-12bf9:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
